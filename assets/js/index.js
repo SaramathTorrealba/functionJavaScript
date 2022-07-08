@@ -1,12 +1,12 @@
 let btn = document.querySelector("#btn");
-imgP = document.querySelector("#imagePrincipal");
-contador = 0;
+let imgP = document.querySelector("#imagePrincipal");
+let counter = 0;
 btn.addEventListener("click", (e) => {
-  if (contador == 0) {
+  if (counter == 0) {
     imgP.setAttribute("style", "border:2px solid red");
-    contador = 1;
+    counter = 1;
   } else {
     imgP.style.removeProperty("border");
-    contador = 0;
+    counter = 0;
   }
 });
