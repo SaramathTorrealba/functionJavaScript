@@ -8,10 +8,10 @@ function selectClick() {
       document.querySelector("#price2").value +
       document.querySelector("#price3").value
   );
-  if (select1 == "911") {
+  if (select1 === 911) {
     messageP = document.querySelector("#message3");
     messageP.innerHTML = "password 1 correcto";
-  } else if (select1 == "714") {
+  } else if (select1 === 714) {
     messageP = document.querySelector("#message3");
     messageP.innerHTML = "password 2 correcto";
   } else {
